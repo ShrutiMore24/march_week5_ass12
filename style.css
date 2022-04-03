@@ -1,0 +1,122 @@
+body {
+    margin: 0;
+}
+
+ul {
+    display: flex;
+    margin-left: 50px;
+}
+
+li {
+    margin: 0px 40px;
+    list-style: none;
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+button {
+    padding: 8px;
+    margin: 0px 10px;
+    width: 80px;
+    color: white;
+    background-color: green;
+}
+
+img {
+    height: 100px;
+    width: 150px;
+    margin: 20px;
+}
+
+.container {
+    height: 650px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+#btn1 {
+    position: absolute;
+    right: 20px;
+}
+
+#btn2 {
+    position: absolute;
+    right: 120px;
+}
+
+#search {
+    position: absolute;
+    right: 250px;
+    font-size: 16px;
+}
+
+#head-div {
+    background-color: rgb(85, 80, 189);
+    height: 99px;
+}
+
+#head-div h1 {
+    color: white;
+    font-size: 52px;
+    width: 100%;
+    margin: 0;
+    padding-left: 40px;
+    line-height: 90px;
+}
+
+#head-mid {
+    background-color: #dde0ef;
+    height: 600px;
+    width: 100%;
+}
+
+.one-section {
+    height: 140px;
+    width: 40%;
+    text-align: center;
+    float: left;
+}
+
+.one-section p {
+    padding: 50px 34px;
+}
+
+.two-section {
+    height: 140px;
+    width: 60%;
+    float: right;
+}
+
+.two-section div {
+    justify-content: center;
+    padding-left: 50px;
+}
+
+.two-section div input {
+    font-size: 16px;
+    width: 202px;
+    height: 21px;
+}
+
+.two-section div input[id="email"] {
+    width: 400px;
+}
+
+#signup {
+    background-color: green;
+    font-size: 18px;
+    padding: 5px;
+    color: white;
+    width: 176px;
+    border-radius: 3px;
+}
+
+.two-section input[type="radio"] {
+    width: 22px;
+}
